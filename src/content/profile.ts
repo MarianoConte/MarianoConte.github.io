@@ -9,8 +9,8 @@ export const profile = {
     es: "Senior Full Stack Developer | React, TypeScript, Next.js, Node.js",
   } satisfies Localized,
   location: {
-    en: "Mar del Plata, Argentina · Remote (UTC-3)",
-    es: "Mar del Plata, Argentina · Remoto (UTC-3)",
+    en: "Mar del Plata, Argentina (UTC-3)",
+    es: "Mar del Plata, Argentina (UTC-3)",
   } satisfies Localized,
   links: {
     linkedin: "https://www.linkedin.com/in/mariano-conte/",
@@ -49,7 +49,7 @@ export const readme: Localized<ReadmeBlock[]> = {
     },
     {
       type: "p",
-      text: "Fully remote since 2022, working with distributed teams across time zones. Open to remote Senior Frontend and Full Stack roles (full-time or contract).",
+      text: "Fully remote since 2022, working with distributed teams across time zones. Open to Senior Full Stack and Frontend roles: remote worldwide, or hybrid / on-site in Argentina (full-time or contract).",
     },
   ],
   es: [
@@ -75,7 +75,7 @@ export const readme: Localized<ReadmeBlock[]> = {
     },
     {
       type: "p",
-      text: "Trabajo 100% remoto desde 2022, con equipos distribuidos en distintas zonas horarias. Busco roles remotos Senior Frontend o Full Stack (relación de dependencia o contrato).",
+      text: "Trabajo 100% remoto desde 2022, con equipos distribuidos en distintas zonas horarias. Busco roles Senior Full Stack o Frontend: remotos para cualquier país, o híbridos / presenciales en Argentina (relación de dependencia o contrato).",
     },
   ],
 };
